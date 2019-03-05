@@ -41,6 +41,7 @@ img {
 
 h2, p, .button {
   align-self: center;
+  margin-left: 50px;
 }
 
 .button {
@@ -51,4 +52,8 @@ h2, p, .button {
 
 a {
   color: rgb(86, 169, 207);
+}
+
+
+footer {
 }
