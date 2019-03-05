@@ -1,19 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Semantics and Accessibility</title>
 </head>
 <body>
-    <h1>Accesibilidad</h1>
+    <header>
+        <ul>
+            <li>Inicio</li>
+            <li>Alumnado</li>
+            <li>Profesorado</li>
+            <li tabindex="0">Contacto</li>
+        </ul>
+    </header>
+    <h1>Curso de ebanistería</h1>
 
+    <section>
+        <div class="place_container">
+            <h2>En Alaska</h2>
+            <img src="images/alaska.jpg"  tabindex="20" alt="Esto es una montaña con troncos y nieve al fondo, muy bonito">
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                bioconstrucción...
+            </p>
+            <div role="button" class="button" onclick="enroll()">
+                    Apuntarse
+           </div>
+        </div>
+        <div class="place_container">
+            <h2>En Perú</h2>
+            <img src="images/peru.jpg" alt="Esto parecen troncos de árboles en el retiro">
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                    bioconstrucción...
+            </p>
+            <div role="button" class="button" onclick="enroll()">
+                    Apuntarse
+            </div>
+        </div>
+        <div class="place_container">
+            <h2>En Polonia</h2>
+            <img src="images/polonia.jpg" alt="foto">
+            <p>Aprende a cortar, serrar, construir casas autosostenidas,
+                    bioconstrucción...
+            </p>
+            <div role="button" class="button" onclick="enroll()">
+                    Apuntarse
+            </div>
+        </div>
+    </section>
 
-
-
-
+    <footer>
+        <p><a href="">Para más información contactad con el decanato</a></p>
+    </footer>
 
 
 

@@ -1,7 +1,54 @@
 body {
     background-color: #5EBAD1;
+    color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  color: white  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+
+}
+li {
+  list-style: none;
+  margin: 20px;
+}
+
+button {
+  height: 100px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.place_container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+img {
+  margin: 50px;
+}
+
+h2, p, .button {
+  align-self: center;
+}
+
+.button {
+  border: solid 1px black;
+  height: 30px;
+  color: black;
+}
+
+a {
+  color: rgb(86, 169, 207);
 }
