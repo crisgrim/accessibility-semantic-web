@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+:focus {
+  outline: 4px solid #000000;
+}
+
 h1 {
   display: flex;
   align-content: center;
