@@ -1,0 +1,62 @@
+body {
+  margin: 2em;
+}
+
+body,
+div,
+input,
+textarea,
+h1,
+h2 {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+div {
+  margin: 1em 0;
+}
+
+div[contenteditable] {
+  width: 10em;
+  min-height: 2em;
+  padding: 0.2em;
+  border: 1px solid #000;
+}
+
+label {
+  display: block;
+  margin: 1em 0;
+}
+
+select {
+  width: 10em;
+}
+
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+blockquote {
+  background: #eee;
+  border-radius: 5px;
+  margin: 16px 0;
+}
+
+blockquote p {
+  padding: 15px;
+}
+
+cite {
+  margin: 16px 32px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+[contenteditable='true'] {
+  caret-color: red;
+}
