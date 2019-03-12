@@ -54,6 +54,15 @@ a {
   color: rgb(86, 169, 207);
 }
 
+.btn {
+  font-size: 2em;
+  margin: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  display: inline-block;
+  padding: 20px;
+}
 
-footer {
+.btn:focus {
+  outline: 4px solid #000000;
 }

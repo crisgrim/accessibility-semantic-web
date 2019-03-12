@@ -13,3 +13,4 @@ Pistas:
 4. Eliminar el tabulado a la imagen.
 5. Hacer más legible el texto del enlace del footer.
 6. Especificar lenguaje.
+7. Agregar enlace a "Ir a contenido"
