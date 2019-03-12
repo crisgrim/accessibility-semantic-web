@@ -66,3 +66,11 @@ a {
 .btn:focus {
   outline: 4px solid #000000;
 }
+
+.container {
+  display: inline-block;
+}
+
+.instructions {
+  margin: 8px;
+}
