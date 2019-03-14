@@ -25,6 +25,7 @@ li {
 }
 
 button {
+  cursor: pointer;
   height: 100px;
 }
 
@@ -55,7 +56,8 @@ h2, p, .button {
 }
 
 a {
-  color: rgb(86, 169, 207);
+  text-decoration: none;
+  color: black;
 }
 
 .btn {
