@@ -78,3 +78,10 @@ a {
 .instructions {
   margin: 8px;
 }
+
+
+/* tabindex */
+.button-0{
+  background-color: grey;
+  color: white;
+}
