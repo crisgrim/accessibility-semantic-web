@@ -1,5 +1,14 @@
 # accessibility-semantic-web
-We create a new repository to show some examples related to accesibility and semantic web
+We create a new repository to show some examples related to accesibility and semantic web.
+
+
+Hemos creado varios ejemplos sencillos para explicar conceptos clave de accesibilidad. 
+   - buttonsLogic y buttonsNotLogic explican la importancia del orden en el DOM para la accesibilidad.
+   - indexButtons es una comparativa de tres tipos de posibles botones. Los dos primeros están 'rotos', sólo funciona el tercero. 
+   - indexElements es una recopilación de elementos HTML.
+   - Tabindex.html es un ejemplo de cómo funciona este atributo y tiene su explicación en el main.js
+   - index.html es el proyecto a resolver, cuyo reto se plantea a continuación.
+   - La carpeta de Solutions incluye los archivos modificados con las soluciones y un README explicativo. 
 
 
 # Objetivo
